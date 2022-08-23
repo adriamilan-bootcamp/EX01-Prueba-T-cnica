@@ -1,0 +1,7 @@
+package com.adriamilan.ptecnica.dao;
+
+public interface IMensajeDAO extends JpaRepository<Mensaje, Long> {
+
+	
+	
+}

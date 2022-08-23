@@ -1,0 +1,5 @@
+package com.adriamilan.ptecnica.service;
+
+public class MensajeServiceImpl implements IMensajeService {
+
+}

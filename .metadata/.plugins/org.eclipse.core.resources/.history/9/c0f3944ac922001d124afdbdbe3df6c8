@@ -1,0 +1,13 @@
+package com.adriamilan.ptecnica.service;
+
+public interface IUsuariosGruposService {
+
+	public List<UsuariosGrupos> listUsuariosGrupos();
+	
+	public UsuariosGrupos usuariosGruposXID(Long id);
+	
+	public UsuariosGrupos usuariosGruposXNombre(String nombre);
+	
+	public UsuariosGrupos saveUsuariosGrupos(Long id);
+	
+}

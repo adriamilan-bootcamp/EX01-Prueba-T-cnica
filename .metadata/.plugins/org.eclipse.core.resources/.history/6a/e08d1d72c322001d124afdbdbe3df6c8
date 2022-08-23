@@ -1,0 +1,6 @@
+package com.adriamilan.ptecnica.dto;
+
+@E
+public class InfoUsuario {
+
+}

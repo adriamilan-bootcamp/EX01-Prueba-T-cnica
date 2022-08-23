@@ -1,0 +1,10 @@
+package com.adriamilan.ptecnica.dto;
+
+@Entity
+public class UsuariosGrupos {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+	
+}

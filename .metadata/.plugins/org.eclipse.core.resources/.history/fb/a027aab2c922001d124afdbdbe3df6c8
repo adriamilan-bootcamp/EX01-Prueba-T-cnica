@@ -1,0 +1,56 @@
+package com.adriamilan.ptecnica.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.adriamilan.ptecnica.dto.UsuariosGrupos;
+
+@Service
+public class UsuarioGruposServiceImpl implements IUsuariosGruposService {
+
+	@Autowired
+	IUsuariosGruposService ugservice;
+
+	@Override
+	public List<UsuariosGrupos> listUsuariosGrupos() {
+		return ugservice.listUsuariosGrupos();
+	}
+
+	@Override
+	public UsuariosGrupos usuariosGruposXID(Long id) {
+		return ugservice.usuariosGruposXID(id);
+	}
+
+	@Override
+	public UsuariosGrupos usuariosGruposXNombre(String nombre) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public UsuariosGrupos usuariosGruposXGrupo(String grupo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public UsuariosGrupos saveUsuariosGrupos(UsuariosGrupos usuariosGrupos) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public UsuariosGrupos editUsuariosGrupos(UsuariosGrupos usuariosGrupos) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String deleteUsuariosGrupos(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}

@@ -1,0 +1,7 @@
+package com.adriamilan.ptecnica.service;
+
+public interface IGrupoService {
+
+	public listGrupos();
+	
+}

@@ -1,0 +1,28 @@
+package com.adriamilan.ptecnica.dto;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
+public class InfoUsuario {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+	
+	@Column(name="web")
+	private String web;
+	
+	@Column(name="discord")
+	private String discord;
+	
+	@Column(name="steam")
+	private String steam;
+	
+	// Constructor por defecto
+	
+	
+}

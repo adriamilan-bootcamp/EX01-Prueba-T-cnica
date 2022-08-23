@@ -1,0 +1,9 @@
+package com.adriamilan.ptecnica.service;
+
+public interface IMensajeService {
+
+	public List<Mensaje> listMensajes();
+	
+	public Mensaje mensajeXID(Long id);
+	
+}

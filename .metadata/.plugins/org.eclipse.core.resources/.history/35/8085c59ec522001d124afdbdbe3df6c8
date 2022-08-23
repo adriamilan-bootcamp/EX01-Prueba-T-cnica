@@ -1,0 +1,5 @@
+package com.adriamilan.ptecnica.dao;
+
+public interface IGrupoDAO {
+
+}

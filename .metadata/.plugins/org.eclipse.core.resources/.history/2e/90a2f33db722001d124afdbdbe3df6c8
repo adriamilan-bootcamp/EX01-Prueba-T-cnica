@@ -1,0 +1,5 @@
+package com.adriamilan.ptecnica.security;
+
+public class JWTAuthorizationFilter {
+
+}
